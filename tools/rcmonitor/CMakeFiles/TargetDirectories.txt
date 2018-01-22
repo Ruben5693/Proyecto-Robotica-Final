@@ -1,0 +1,10 @@
+/home/pablo/robocomp/tools/rcmonitor/CMakeFiles/ui_depthBusDlg.dir
+/home/pablo/robocomp/tools/rcmonitor/CMakeFiles/ui_floorDlg.dir
+/home/pablo/robocomp/tools/rcmonitor/CMakeFiles/ui_forkDlg.dir
+/home/pablo/robocomp/tools/rcmonitor/CMakeFiles/ui_formMonitor.dir
+/home/pablo/robocomp/tools/rcmonitor/CMakeFiles/ui_headntpDlg.dir
+/home/pablo/robocomp/tools/rcmonitor/CMakeFiles/ui_headt2pDlg.dir
+/home/pablo/robocomp/tools/rcmonitor/CMakeFiles/ui_jointmotorDlg.dir
+/home/pablo/robocomp/tools/rcmonitor/CMakeFiles/ui_kinectDlg.dir
+/home/pablo/robocomp/tools/rcmonitor/CMakeFiles/ui_openA.dir
+/home/pablo/robocomp/tools/rcmonitor/CMakeFiles/ui_period.dir

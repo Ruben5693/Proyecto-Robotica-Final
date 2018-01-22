@@ -37,7 +37,7 @@
 		</transform>
 		
 		
-		<transform id="C10" tx="0" ty="5" tz="-200"> 
+		<!--<transform id="C10" tx="0" ty="5" tz="-200"> 
 			
 			<transform id="axisCube" tx="0" ty="0" tz="0"> 
 				<plane id="axisCubex" px="50" nx="1" size="2,2,100" repeat="1" texture="#ff0000" />
@@ -52,7 +52,7 @@
 			<plane id="C10_5" nz="1"  px="0" py="50" pz="50" size="100,100,1" texture="/home/robocomp/robocomp/files/innermodel/tar36h11-10.png" />
 			<plane id="C10_6" nz="1"  px="0" py="50" pz="-50" size="100,100,1" texture="/home/robocomp/robocomp/files/innermodel/tar36h11-10.png" />
 			
-		</transform>
+		</transform>-->
 		
 		<transform id="C11" tx="1000" ty="5" tz="-1200"> 
 					
@@ -119,27 +119,28 @@
 			<plane id="C16_6" nz="1"  px="0" py="50" pz="-50" size="100,100,1" texture="/home/robocomp/robocomp/files/innermodel/tar36h11-16.png" />
 			
 		</transform>
-		-->
-	
+		
+	-->
 			<differentialrobot id="robot" port="10004">
 							
 				<mesh id="base_robex" file="/home/robocomp/robocomp/files/osgModels/robex/robex.ive"  tx="0" ty="0" tz="-180" scale="1000" />
 	
 				
-	<!--			<translation id="laserPose" tx="0" ty="40" tz="0">
+				<translation id="laserPose" tx="0" ty="40" tz="0">
 					<laser id="laser" port="10003" measures="100" min="100" max="30000" angle="3" ifconfig="10000" />
 						<plane id="sensorL" nz="1" pz="-200" size="100" repeat="1" texture="#ff0000" /> 
-				</translation>	-->
+				</translation>
 
 				<transform id="camera" ty="210" tz="180">
 						<imu id="imu" port="10010"/>
 						<rgbd id="rgbd" focal="480" width="640" height="480" port="10096" noise="0.00" ifconfig="40000,50000" />
+					<!--	<rgbd id="rgbdArm" focal="480" width="640" height="480" port="10097" noise="0.00" ifconfig="40000,50000" />-->
 						<plane id="rgbd_mesh1" nz="1" pz="-200" size="200,50,10" repeat="1" texture="#550000" />
 				</transform>
 				
 				
 				<translation id="robotGeometricCenter" tx="0" ty="0" tz="50">
-				</translation>
+</translation>
 					
 				<!--<transform id="target2" tx="0.0" ty="0.0" tz="0.0"> 
 					<plane id="target2x" px="250" nx="1" size="10,10,500" repeat="1" texture="#ff0000" />
